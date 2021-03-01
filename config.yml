@@ -3,6 +3,7 @@ title: "Home"
 theme: ghostwriter
 languageCode: en-us
 copyright: Raf Van Baelen
+googleAnalytics: G-EYYTM7970K
 disqusShortname: raf-van-baelen
 pygmentsUseClasses: true
 pygmentsCodefences: true
@@ -21,6 +22,10 @@ markup:
 privacy:
   disqus:
     disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+    useSessionStorage: false    
 
 author:
   name: Raf Van Baelen
