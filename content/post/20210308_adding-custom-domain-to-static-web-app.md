@@ -36,4 +36,6 @@ Lastly we can couple the Domain to our Static Web App. In the Static Web App cli
 Enter your custom domain (eg. www.rafvanbaelen.com) and click next. 
 With CNAME selected you can click validate and the Hostname should be added. If validation fails make sure your CNAME matches what is shown in the Validate domain ownership step.
 
+Also update the baseUrl setting in your config.yml.
+
 That should do the trick, the site should be reachable via the new domain name. Fancy!
