@@ -1,4 +1,0 @@
-baseURL = "https://white-mushroom-0c4e52c03.azurestaticapps.net/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ghostwriter"

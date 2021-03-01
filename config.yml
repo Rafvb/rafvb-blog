@@ -1,0 +1,66 @@
+baseURL: "https://white-mushroom-0c4e52c03.azurestaticapps.net/"
+title: Raf Van Baelen
+theme: ghostwriter
+languageCode: en-us
+copyright: Raf Van Baelen
+disqusShortname: raf-van-baelen
+pygmentsUseClasses: true
+pygmentsCodefences: true
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    tabWidth: 2
+
+privacy:
+  disqus:
+    disable: false
+
+author:
+  name: Raf Van Baelen
+  profile: ""
+
+params:
+  mainSections:
+    - post
+  intro: true
+  headline: Raf Van Baelen
+  description: My personal blog 👋
+  github: "https://github.com/Rafvb"
+  linkedin: "https://linkedin.com/in/raf-van-baelen-1046035/"
+  twitter: "https://twitter.com/rafvanbaelen"
+  stackoverflow: "https://stackoverflow.com/users/1134400/raf"
+  email: rafvanbaelen@gmail.com
+  opengraph: true
+  shareTwitter: true
+  rss: true
+  shareFacebook: true
+  shareLinkedIn: false
+  dateFormat: "2 Jan 2006"
+  exponeaJsUrl: ""
+  exponeaTarget: ""
+  exponeaToken: ""
+  exponeaTrackVisits: false
+  readingTime: true
+  readingTimeText: "Estimated reading time:"
+  fathomUrl: ""
+  fathomSiteId: ""
+
+permalinks:
+  post: "/:year/:month/:day/:title/"
+
+menu:
+  main:
+    - name: Blog
+      url: /
+      weight: 1
+    - name: About
+      url: /page/about/
+      weight: 2
+
