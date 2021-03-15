@@ -1,6 +1,5 @@
 +++
 title = "Blogging with Hugo on Azure"
-name = "test"
 description = "Setting up a new blog (again)."
 tags = [
     "hugo",
