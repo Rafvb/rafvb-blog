@@ -29,4 +29,6 @@ Back in the Google Search Console, the verification should work now.
 
 According to Google you should leave the record in so they verify it again later.
 
-After some time the first results should be visible in the search results 👍
+After some time the first results should be visible in the Search Console 👍
+
+You can also provide a link to a sitemap to Google, so it can easily index all your pages. Hugo will generate one automatically at [/sitemap.xml](https://www.rafvanbaelen.com/sitemap.xml). You can add it in the Search Console under Index > Sitemaps by entering the full url of your sitemap.xml.
