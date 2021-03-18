@@ -1,6 +1,5 @@
 +++
 title = "Testing asynchronous code with jest"
-description = "Setting up a new blog (again)."
 tags = [
     "jest",
     "testing"
