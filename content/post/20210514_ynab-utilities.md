@@ -10,7 +10,7 @@ date = 2021-05-14
 +++
 
 ## YNAB
-A colleague of mine pointed me to the fabulous (YNAB)[https://www.youneedabudget.com/] budgetting app. I've tried some budgetting apps over the last years, but never stuck with them. Currently I am using YNAB for over a year now and I'm really ❤ it. The way it deals with budgetting (label all your money) took a few moments to click, but when it does it makes it really easy (and fun) to take control over your budget.
+A colleague of mine pointed me to the fabulous [YNAB](https://www.youneedabudget.com/) budgetting app. I've tried some budgetting apps over the last years, but never stuck with them. Currently I am using YNAB for over a year now and I'm really ❤ it. The way it deals with budgetting (label all your money) took a few moments to click, but when it does it makes it really easy (and fun) to take control over your budget.
 
 Now this is not some kind of infomercial for YNAB (but still, you should give it a try 😉), but a technical blog post on a technical blog, so get technical already!
 
