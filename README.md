@@ -2,6 +2,7 @@ This is the repository for my (Raf Van Baelen) personal blog: https://www.rafvan
 
 Using:
 * Hugo (https://gohugo.io/)
+* Hugo Theme: Hello Friend Ng (https://github.com/rhazdon/hugo-theme-hello-friend-ng)
 * Azure Static Web App (https://docs.microsoft.com/en-us/azure/static-web-apps/overview)
 
 To run locally:
