@@ -7,7 +7,7 @@ tags = [
 date = 2021-03-08
 +++
 
-In the [previous post]({{< ref "/post/20210301_blogging-with-hugo-on-azure.md" >}}) I created a new blog on Azure using a Static Web App.
+In the [previous post]({{< ref "/posts/20210301_blogging-with-hugo-on-azure" >}}) I created a new blog on Azure using a Static Web App.
 By default you get a funky auto genererated url by azure. To make feel more like home we can add a custom domain.
 
 Since I was going all in on Azure, I also wanted to try their domain service (which is GoDaddy on the backend I believe). 
@@ -18,17 +18,17 @@ First we need to add a new resource called App Service Domain, following [these 
 
 To add the custom domain to our Static Web App we need to add a CNAME record to the DNS records of our newly created domain:
 
-![Manage DNS records in the Azure Portal](/adding-custom-domain-to-static-web-app/azure_manage_dns_records.png)
+{{< image src=azure-manage-dns-records.png alt="Manage DNS records in the Azure Portal" >}}
 
 On the DNS zone, add a new Record set:
 
-![Add new Records set in the Azure Portal](/adding-custom-domain-to-static-web-app/azure_add_record_set.png)
+{{< image src=azure-add-record-set.png alt="Add new Records set in the Azure Portal" >}}
 
 Enter these values (leave the defaults for the others):
 
 * Name: www
 * Type: CNAME
-* Alias: <your-azure-static-app-name>.azurestaticapps.net
+* Alias: _your-azure-static-app-name_.azurestaticapps.net
 
 The last one is the url of your Static Web App.
 

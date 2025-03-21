@@ -13,11 +13,11 @@ This new blog deserves to be found by the most popular search engine on the plan
 To add it I had to [verify my ownership](https://search.google.com/search-console/ownership) of the 'property'.
 I added a new property in the Google Search Console, which prompted me to add a txt-record to my DNS config.
 
-![Adding a property to Google Search Console](/adding-site-to-google/google-search-console-add-property.png)
+{{< image src=google-search-console-add-property.png alt="Adding a property to Google Search Console" >}}
 
 I copied the value from the popup, went to my App Service Domain's DNS zone in Azure and added a record set:
 
-![Add new Records set in the Azure Portal](/adding-custom-domain-to-static-web-app/azure_add_record_set.png)
+{{< image src=azure-add-record-set.png alt="Add new Records set in the Azure Portal" >}}
 
 Enter these values (leave the defaults for the others):
 

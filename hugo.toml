@@ -1,0 +1,47 @@
+baseURL = 'https://www.rafvanbaelen.com/'
+languageCode = 'en-us'
+title = 'Cyber Tree Consulting'
+theme = 'hello-friend-ng'
+pageSize = 10
+
+[params]
+  title = "Cyber Tree Consulting"
+  subtitle  = "by Raf Van Baelen"
+  homeSubtitle = "by Raf Van Baelen"
+  copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  readOtherPosts = "Read other posts"
+
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons
+  enableSharingButtons = true
+
+  # Metadata
+  description = "Cyber Tree Consulting"
+  keywords = "homepage, blog"
+  images = [""]
+
+  [params.logo]
+    logoText = "Cyber Tree Consulting"
+    logoHomeLink = "/"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[menus]
+  [[menus.main]]
+    name       = "Blog"
+    url        = "/posts"
+    weight     = 10
+  [[menus.main]]
+    name       = "About"
+    url        = "/about"
+    weight     = 20
