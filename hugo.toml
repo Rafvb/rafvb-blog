@@ -31,6 +31,16 @@ pageSize = 10
     logoText = "Cyber Tree Consulting"
     logoHomeLink = "/"
 
+  [[params.social]]
+    name = "email"
+    url = "mailto:rafvanbaelen@gmail.com"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/Rafvb"
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/raf-van-baelen-1046035/"
+
 [taxonomies]
     category = "blog"
     tag      = "tags"
@@ -42,6 +52,10 @@ pageSize = 10
     url        = "/posts"
     weight     = 10
   [[menus.main]]
+    name       = "Games"
+    url        = "/games"
+    weight     = 20
+  [[menus.main]]
     name       = "About"
     url        = "/about"
-    weight     = 20
+    weight     = 30
