@@ -7,7 +7,7 @@ tags = [
 date = 2025-03-25
 +++
 
-I wanted to make a script in my Godot project autoload, so I added it to the `Project Settings > Globals > Autoload`.
+I wanted to make a script in my Godot project autoload, so I added it to the `Project Settings` > `Globals` > `Autoload`.
 
 {{< image src=autoload-settings.png alt="Autoload settings" >}}
 
