@@ -19,9 +19,6 @@ pageSize = 10
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
-  # Enable sharing buttons
-  enableSharingButtons = true
-
   # Metadata
   description = "Cyber Tree Consulting"
   keywords = "homepage, blog"

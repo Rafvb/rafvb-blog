@@ -4,7 +4,7 @@ tags = [
     "YNAB",
     "azure",
     "blazor",
-    "F#"
+    "Fsharp"
 ]
 date = 2021-05-14
 +++
