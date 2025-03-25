@@ -8,6 +8,7 @@ pageSize = 10
   title = "Cyber Tree Consulting"
   subtitle  = "by Raf Van Baelen"
   homeSubtitle = "by Raf Van Baelen"
+  homeSlogan = "Growing quality software, one branch at a time"
   copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   readOtherPosts = "Read other posts"
 
