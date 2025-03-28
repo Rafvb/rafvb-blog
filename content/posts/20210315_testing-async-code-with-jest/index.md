@@ -9,7 +9,7 @@ date = 2021-03-15
 
 Going through our codebase I've found some tests like this in our code:
 
-```
+``` csharp
 describe('Example tests', () => {
     it('tests asynchronous code', () => {
         // Arrange code here
@@ -34,7 +34,7 @@ _Side note: if this test was correctly written using the red-green-refactor TDD 
 
 To make sure the test waits until the async logic is finished we need to explicitly define when our test is done. To do that we can make use of the [done parameter](https://jestjs.io/docs/asynchronous#callbacks).
 
-```
+``` csharp
 describe('Example tests', () => {
     it('tests asynchronous code', done => {
         // Arrange code here

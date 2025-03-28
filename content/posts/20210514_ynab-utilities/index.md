@@ -4,7 +4,7 @@ tags = [
     "YNAB",
     "azure",
     "blazor",
-    "F#"
+    "Fsharp"
 ]
 date = 2021-05-14
 +++
@@ -31,13 +31,13 @@ The parsing library uses [FSharp.Data](https://fsprojects.github.io/FSharp.Data/
 
 I embed a sample.csv file containing the BNP format and a ynab.csv file containing the YNAB format. I can then create a type using the CsvProvider. This will inspect the csv and give me intellisense on the type based on the info in the csv! Magic 🎇 
 
-```
+``` fsharp
 type Transactions = CsvProvider<"sample.csv", EmbeddedResource="Raf.YNAB.Importer, Raf.YNAB.Importer.sample.csv", Separators=";", Culture="nl-be">
 ```
 
 I let FSharp.Data figure out the columns in the BNP file, but had to help a bit with the YNAB format.
 
-```
+``` fsharp
 type YNABTransactions = CsvProvider<"ynab.csv", Schema="Date (string), Payee (string), Memo (string), Outflow (string), Inflow (string)",
                                                 EmbeddedResource="Raf.YNAB.Importer, Raf.YNAB.Importer.ynab.csv">
 ```
@@ -50,7 +50,7 @@ For the front-end I used a simple blazor app. It's a client side app, so it runs
 
 It accepts a csv file and when succesfully parsed will download you the YNAB version. It feels funky to be reading streams in C# in the client in the browser, but it all works 😁 To directly download the result file we have to call out to a javascript function (defined in the index.html).
 
-```
+``` javascript
 await js.InvokeAsync<object>("saveAsFile", fileName, Convert.ToBase64String(bytes));
 ```
 

@@ -14,8 +14,8 @@ date = 2021-03-01
 After a long break (my last blog post was from 2015) I decided to pick up blogging again.
 And of course this meant I had an excuse to try something new 😁
 
-My [first blog](http://rafvb.github.io) was a wordpress blog, hosted by wordpress.
-Then i switched to [a static site](https://rafvb.wordpress.com) using Jekyll on github.
+My [first blog](https://rafvb.wordpress.com) was a wordpress blog, hosted by wordpress.
+Then i switched to [a static site](http://rafvb.github.io) using Jekyll on github.
 
 This time I am still going for a static website using [Hugo](https://gohugo.io/). Most of my professional work uses Azure, so I wanted to also host my blog there using a static web app.
 
@@ -25,7 +25,7 @@ I did not spend a whole lot of time picking a static site generator to be honest
 
 And, my god, it's fast...
 
-![Hugo logo - The O stands for oh my god it's fast](/blogging-with-hugo-on-azure/hugo_logo.svg)
+{{< image src=hugo-logo.svg alt="Hugo logo" >}}
 
 Written in GO, but that is an implementation detail when you use it, since you just install the binaries.
 
