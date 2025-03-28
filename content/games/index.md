@@ -8,7 +8,7 @@ Check out my [Itch.io](https://rafvanbaelen.itch.io/) profile.
 These are the games i've released:
 
 ## Pieceful Paintings
-{{< image src=pieceful-paintings.png alt="Pieceful Paintings" >}}
+{{< image src=games/pieceful-paintings.png alt="Pieceful Paintings" >}}
 
 A relaxing puzzle game where you piece together some of the greatest paintings ever made.
 

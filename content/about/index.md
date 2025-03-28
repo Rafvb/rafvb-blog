@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-{{< image src=me.png alt="Me (Raf Van Baelen)" position="center" >}}
+{{< image src=about/me.png alt="Me (Raf Van Baelen)" position="center" >}}
 
 ## About me
 Hi there! My name is Raf Van Baelen. I am an independant 🦸‍♂️ software architect from 🌍 Belgium.
