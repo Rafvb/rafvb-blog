@@ -27,6 +27,11 @@ pageSize = 10
     logoText = "Cyber Tree Consulting"
     logoHomeLink = "/"
 
+  [params.portrait]
+    path     = "/img/logo-small.png"
+    alt      = "Portrait"
+    maxWidth = "256px"    
+
   [[params.social]]
     name = "email"
     url = "mailto:rafvanbaelen@gmail.com"
