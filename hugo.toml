@@ -1,4 +1,4 @@
-baseURL = 'https://www.rafvanbaelen.com/'
+baseURL = 'https://www.cybertreeconsulting.com/'
 languageCode = 'en-us'
 title = 'Cyber Tree Consulting'
 theme = 'hello-friend-ng'
@@ -34,7 +34,7 @@ pageSize = 10
 
   [[params.social]]
     name = "email"
-    url = "mailto:rafvanbaelen@gmail.com"
+    url = "mailto:info@cybertreeconsulting.com"
   [[params.social]]
     name = "github"
     url = "https://github.com/Rafvb"

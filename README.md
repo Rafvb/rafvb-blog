@@ -1,4 +1,4 @@
-This is the repository for my (Raf Van Baelen) blog: https://www.rafvanbaelen.com/
+This is the repository for my (Raf Van Baelen) blog: https://www.rafvanbaelen.com/ and https://www.cybertreeconsulting.com/
 
 # Technologies
 * Hugo (https://gohugo.io/)
